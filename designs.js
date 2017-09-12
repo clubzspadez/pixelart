@@ -1,5 +1,3 @@
-
-
 //Grab DOM elements
 var canvas = $('#pixel_canvas');
 const widthInput = $('#input_width');
@@ -20,7 +18,7 @@ $('#sizePicker').on('submit',function (){
 });
 
 //makeGrid function with parameters passing width and height
-function makeGrid(width, height) {
+function makeGrid(width, height){
 
 // loop through height
 for(var x = 0; x < height; x++){
